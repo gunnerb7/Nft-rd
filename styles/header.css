@@ -1,0 +1,70 @@
+.navbar {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+    border-width: 1px;
+    position: fixed;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    background-color: aquamarine;
+  
+}
+
+.left-section {
+    background-color: lightblue;
+    width: 200px;
+
+}
+.middle-section {
+    background-color: lightpink;
+    flex: .5;
+    text-align: center;
+    padding-top: 10px;
+}
+.right-section {
+    background-color: lightblue;
+    width: 300px;
+
+}
+
+.nftfamiliar , .artist , .castleborn {
+    width: 100%;
+    border-radius: 50%;
+    
+
+    
+}
+
+.contact-us {
+    border: 1px red solid;
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+p{
+    font-size: 25px;
+}
+.contact-us:hover{
+    font-size: 175%;
+    font-style: bold;
+    background-color: yellow;
+    <!--- might get rid of this lol --->
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    transition: transform .2s;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+
+}
+p:hover{
+    font-size: 200%;
+    font-style: bold;
+    background-color: yellow;
+    }
+
